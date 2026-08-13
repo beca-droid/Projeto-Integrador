@@ -20,8 +20,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Ajuste de layoutes.
 - [x] Colocar o conteúdo.
 - [ ] Ajustes do conteúdo.
-- [ ] Arrumar a acessibilidade.
+- [ ] Ajustar a acessibilidade.
 
 
 
-## 🤝 Rebeca, Júlia e Beatriz.
+## 🤝  Colaboradores: Rebeca, Júlia e Beatriz.
