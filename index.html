@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC pra Vida - Alfabetização de Jovens e Adultos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>ABC pra Vida</h1>
+        <p>Sua jornada rumo à leitura e à escrita</p>
+    </header>
+
+    <main>
+        <section id="menu" class="card-container">
+            <div class="card" onclick="mudarModulo('vogais')">
+                <h2>🔤 Módulo 1</h2>
+                <p>Vogais e Sons</p>
+            </div>
+            <div class="card" onclick="mudarModulo('cotidiano')">
+                <h2>🏠 Módulo 2</h2>
+                <p>Palavras do Dia a Dia</p>
+            </div>
+            <div class="card" onclick="mudarModulo('pratica')">
+                <h2>✍️ Módulo 3</h2>
+                <p>Prática de Escrita</p>
+            </div>
+            <div class="card" onclick="mudarModulo('frases')">
+                <h2>💬 Módulo 4</h2>
+                <p>Formando Frases</p>
+            </div>
+            <div class="card" onclick="mudarModulo('placas')">
+                <h2>🪧 Módulo 5</h2>
+                <p>Leitura do Mundo</p>
+            </div>
+        </section>
+
+        <section id="conteudo" class="hidden">
+            <button class="btn-voltar" onclick="voltarMenu()">← Voltar ao Menu</button>
+            <div id="modulo-container"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>ABC pra Vida • Desenvolvido para inclusão e cidadania.</p>
+    </footer>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <script src="mod.js"></script>
+</body>
+</html>
